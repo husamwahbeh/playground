@@ -1,0 +1,18 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "Sample Node.js Express + LoopBack 4 + MongoDB application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node -e \"console.log('No tests specified')\""
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@loopback/core": "^5.0.2",
+    "@loopback/rest": "^12.0.0",
+    "@loopback/repository": "^5.0.4",
+    "@loopback/mongodb": "^6.0.3",
+    "dotenv": "^16.3.1"
+  }
+}
